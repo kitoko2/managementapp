@@ -1,8 +1,7 @@
 import 'package:get/get.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-class HomeController extends GetxController {
-  final homeLoad = false.obs;
-
+class WelcomeController extends GetxController {
   final count = 0.obs;
   @override
   void onInit() {
